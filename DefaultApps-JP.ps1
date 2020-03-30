@@ -1,5 +1,6 @@
 # Call this script from a powershell command prompt using this command:
-# Invoke-WebRequest -uri "https://raw.githubusercontent.com/jpitgit/scripts/master/DefaultApps-JP.ps1"
+# $Script = Invoke-WebRequest -uri "https://raw.githubusercontent.com/jpitgit/scripts/master/DefaultApps-JP.ps1"
+# Invoke-Expression $($Script.Content)
 
 # Preparation
 Set-PSRepository PSGallery -InstallationPolicy Trusted

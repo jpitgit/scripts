@@ -12,7 +12,7 @@ Install-WindowsFeature -IncludeAllSubFeature RSAT
 
 Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-WebRequest -uri "https://chocolatey.org/install.ps1" -UseBasicParsing | Invoke-Expression
 # Chocolatey tools
-Choco install chocolatey-gui -y
+Choco install chocolateygui -y
 
 # Essential tools
 Choco install notepadplusplus -y
